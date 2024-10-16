@@ -1,52 +1,55 @@
-function celsiusToFahrenheit(celsius) {
-	return (celsius * 9) / 5 + 32;
-}
+// function celsiusToFahrenheit(celsius) {
+// 	return (celsius * 9) / 5 + 32;
+// }
 
-console.log(celsiusToFahrenheit(12));
+// console.log(celsiusToFahrenheit(12));
 
-let celsius = celsiusToFahrenheit(0);
+// let celsius = celsiusToFahrenheit(0);
 
-console.log(celsiusToFahrenheit(100));
+// console.log(celsiusToFahrenheit(100));
 
-console.log(celsius);
-
-
-function sommeTroisNombres(a, b, c) {
-    return a + b + c;
-  }
-  console.log(sommeTroisNombres(5, 10, 15));
+// console.log(celsius);
 
 
-function heuresEnSecondes(heures) {
-    return heures * 3600;
-  }
-  console.log(heuresEnSecondes(2));
+// function sommeTroisNombres(a, b, c) {
+//     return a + b + c;
+//   }
+//   console.log(sommeTroisNombres(5, 10, 15));
 
 
-function peutVoter(age, nationalite) {
-    if (age >= 18 && nationalite == "française"){
-        return "Éligible";
+// function heuresEnSecondes(heures) {
+//     return heures * 3600;
+//   }
+//   console.log(heuresEnSecondes(2));
+
+
+// function peutVoter(age, nationalite) {
+//     if (age >= 18 && nationalite == "française"){
+//         console.log("Éligible");
         
-    }else {
-        return "Non éligible";
+//     }else {
+//         console.log("Non éligible");
         
-    }
-  }
-  console.log(peutVoter(20, "française"));
-  console.log(peutVoter(16, "française"));
-  console.log(peutVoter(20, "espagnole"));
+//     }
+//   }
+
+//   let age = prompt("donnez votre age.");
+//   let nationalité = prompt("donnez votre nationalité.");
+//   peutVoter(age, nationalité);
 
 
-function tarif(age) {
-    if (age < 5) {
-        return "Gratuit";
+// function tarif(age) {
+//     if (age < 5) {
+//         console.log("Gratuit");
         
-    }else if (age >= 5 && age <= 18) {
-        return "Réduit"
-    }else if (age > 18) {
-        return "Plein tarif"
-    }
-  }
-  console.log(tarif(3));
-  console.log(tarif(15));
-  console.log(tarif(25));
+//     }else if (age >= 5 && age <= 18) {
+//         console.log("Réduit");
+         
+//     }else if (age > 18) {
+//         console.log("Plein tarif");
+        
+//     }
+//   }
+
+// let age = prompt("donnez votre age.");
+// tarif(age);
