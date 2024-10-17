@@ -38,6 +38,8 @@
 //   peutVoter(age, nationalité);
 
 
+
+  
 // function tarif(age) {
 //     if (age < 5) {
 //         console.log("Gratuit");
@@ -51,5 +53,27 @@
 //     }
 //   }
 
-// let age = prompt("donnez votre age.");
+// age = prompt("donnez votre age.");
 // tarif(age);
+
+// let n = 0;
+
+// while (n < 1000) {
+//     if (n % 2 === 0 || n % 10 === 0) {
+//         console.log(n);
+
+//     }
+//     n++
+// }
+
+// let phrase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// console.log(phrase.split("").reverse().join(""));
+
+
+// let n = Number(prompt("choisis un nombre."));
+// n = 2 ** n;
+
+// if (n >= 2 ** 8 && n <= 2 ** 10) {
+//     console.log(n);
+// }
